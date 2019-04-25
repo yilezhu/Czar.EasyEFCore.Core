@@ -1,2 +1,2 @@
 # Czar.EasyEFCore.Core
-Let EntityFramework to easy
+Make EF Core easy to use.
