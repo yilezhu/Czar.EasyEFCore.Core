@@ -25,7 +25,7 @@ namespace Czar.EasyEFCore.Core
     /// <summary>
     /// Represents the default implementation of the IUnitOfWork interface.
     /// </summary>
-    public class UnitOfWork<TContext> : IBaseRepositoryFactory, IUnitOfWorkT<TContext>, IUnitOfWork
+    public class UnitOfWork<TContext> : IUnitOfWorkT<TContext>, IUnitOfWork
         where TContext : DbContext
     {
         private bool disposed = false;
