@@ -6,6 +6,16 @@
     <!-- 加下面2行,处理SA0001 -->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn),1573,1591,1712</NoWarn>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>yilezhu</Authors>
+    <Company>yilezhu</Company>
+    <Description>EFCore-based encapsulated unit of work makes it easier for everyone to use EFCore.The inspiration for this project is Arch'UnitOfWork.</Description>
+    <Copyright>@yilezhu</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/yilezhu/Czar.EasyEFCore.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yilezhu/Czar.EasyEFCore.Core</RepositoryUrl>
+    <PackageTags>Czar.EasyEFCore.Core,EF Core</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
