@@ -17,6 +17,8 @@ namespace Czar.EasyEFCore.Core
     /// </summary>
     public interface IBaseRepositoryFactory
     {
+        int ExecuteSqlCommand(string sql, params object[] parameters);
+
         /// <summary>
         /// Gets the specified repository for the <typeparamref name="TEntity"/>.
         /// </summary>
